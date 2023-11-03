@@ -6,7 +6,7 @@ Project 3 from my web development course @ IT School.
 
 ## DEMO 
 
-To view the project deployed on Netlify, please click on [It School News App](https://project-it-school-news.netlify.app/).
+To view the project deployed on Netlify, please click on [It School News App](https://proiect-it-school-news.netlify.app/).
 
 ## Table of contents
 
