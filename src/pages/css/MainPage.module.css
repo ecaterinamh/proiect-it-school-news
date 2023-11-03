@@ -1,0 +1,4 @@
+.link,
+.link:hover {
+  color: var(--text-secondary);
+}

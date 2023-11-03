@@ -1,0 +1,12 @@
+.page404 {
+  height: 100vh;
+}
+
+.error404 {
+  font-size: 5rem;
+}
+
+.site,
+.site:hover {
+  color: var(--text-secondary);
+}
