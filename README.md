@@ -63,8 +63,7 @@ All the favorite articles, can be found into the Favorites section.
 
 - IDE (integrated development environment): VS Code; 
 - HTML5
-- CSS
-- Bootstrap5
+- CSS3
 - JavaScript (ES6)
 - REACT
 - REACT Bootstrap
@@ -80,7 +79,7 @@ All the favorite articles, can be found into the Favorites section.
 This project allowed me to increase my knowledge and abilities by applying key concepts like:
 
 - creating a SPA in VS code by using Node.js, npm and react dependencies;
-- responsive design for desktop, tablet and mobile screens by using React Bootstrap and Bootstrap5;
+- responsive design for desktop, tablet and mobile screens by using React Bootstrap;
 - JSX code modules in components and pages for better readability and debugging;
 - CSS modules coresponding to components and pages;
 - obtaining information in real time by using APIs, API key and Postman, useFetch() hook;
