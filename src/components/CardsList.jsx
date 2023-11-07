@@ -14,8 +14,8 @@ export default function CardsList(props) {
           return (
             <Col xs={12} md={6} lg={4} className="mb-4" key={newsItem.id}>
               <CardTemplate
-                newsId={newsItem.id}
-                imageSource={newsItem.thumbnail}
+                id={newsItem.id}
+                image={newsItem.thumbnail}
                 title={newsItem.title}
                 description={newsItem.description}
                 hasCloseButton={newsItem.hasCloseButton}

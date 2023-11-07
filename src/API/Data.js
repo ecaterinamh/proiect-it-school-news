@@ -3,9 +3,9 @@ export function getNewsList(apiResponse) {
     return [];
   }
 
-  const rawNewsList = apiResponse.response.results;
+  const newsListItems = apiResponse.response.results;
 
-  const adaptedNewsList = rawNewsList.map((news) => {
+  const newsItemDetails = newsListItems.map((news) => {
     return {
       id: news.id,
       thumbnail: news.fields.thumbnail,
@@ -14,7 +14,7 @@ export function getNewsList(apiResponse) {
     };
   });
 
-  return adaptedNewsList;
+  return newsItemDetails;
 }
 
 export function getNewsDetails(apiResponse) {
@@ -22,17 +22,17 @@ export function getNewsDetails(apiResponse) {
     return [];
   }
 
-  const rawNewsDetails = apiResponse.response.content;
+  const newsItemDetails = apiResponse.response.content;
 
-  const adaptedNewsDetails = {
-    date: rawNewsDetails.webPublicationDate,
-    title: rawNewsDetails.fields.headline,
-    description: rawNewsDetails.fields.trailText,
-    image: rawNewsDetails.fields.main,
-    content: rawNewsDetails.fields.body,
-    author: rawNewsDetails.fields.byline,
-    thumbnail: rawNewsDetails.fields.thumbnail,
+  const newsDetailsList = {
+    date: newsItemDetails.webPublicationDate,
+    title: newsItemDetails.fields.headline,
+    description: newsItemDetails.fields.trailText,
+    image: newsItemDetails.fields.main,
+    content: newsItemDetails.fields.body,
+    author: newsItemDetails.fields.byline,
+    thumbnail: newsItemDetails.fields.thumbnail,
   };
 
-  return adaptedNewsDetails;
+  return newsDetailsList;
 }

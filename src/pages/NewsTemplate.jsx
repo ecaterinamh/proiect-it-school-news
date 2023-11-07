@@ -26,7 +26,7 @@ function NewsDetailes() {
 
   const newsDetails = useFetch(newsDetailsEndpoint);
 
-  const adaptedNewsDetails = getNewsDetails(newsDetails);
+  const newsItemDetails = getNewsDetails(newsDetails);
 
   const [isAlertDisplayed, setIsAlertDisplayed] = useState(false);
 
@@ -40,7 +40,7 @@ function NewsDetailes() {
   }, [favoritesState, setLocalStorageState]);
 
   const { title, description, image, date, author, content, thumbnail } =
-    adaptedNewsDetails;
+    newsItemDetails;
 
   const getFormattedDate = getDate(date);
 
@@ -91,7 +91,10 @@ function NewsDetailes() {
                 Adaugă la Favorite
               </Button>
             </div>
-            <div dangerouslySetInnerHTML={{ __html: content }}></div>
+            <div
+              className={styles.contentText}
+              dangerouslySetInnerHTML={{ __html: content }}
+            ></div>
           </Col>
         </Row>
       </Container>

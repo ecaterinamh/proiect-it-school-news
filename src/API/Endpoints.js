@@ -8,6 +8,6 @@ export function getNewsSectionsEndpoint(
   return `https://content.guardianapis.com/search?api-key=${API_KEY}&section=${sectionId}&show-fields=all&page-size=${pageSize}&page=${currentPage}`;
 }
 
-export function getNewsDetailsEndpoint(newsId) {
-  return `https://content.guardianapis.com/${newsId}?api-key=${API_KEY}&show-fields=all`;
+export function getNewsDetailsEndpoint(id) {
+  return `https://content.guardianapis.com/${id}?api-key=${API_KEY}&show-fields=all`;
 }
