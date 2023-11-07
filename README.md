@@ -78,17 +78,17 @@ All the favorite articles, can be found into the Favorites section.
 
 This project allowed me to increase my knowledge and abilities by applying key concepts like:
 
-- creating a SPA in VS code by using Node.js, npm and react dependencies;
+- creating a SPA in VS code by using Node.js, npm and React dependencies;
 - responsive design for desktop, tablet and mobile screens by using React Bootstrap;
 - JSX code modules in components and pages for better readability and debugging;
 - CSS modules coresponding to components and pages;
-- obtaining information in real time by using APIs, API key and Postman, useFetch() hook;
+- obtaining information in real time by using APIs, API key, Postman and React hooks (useFetch() and useEffect());
 - displaying information in real time for every day with different news displayed in the reppresented pages;
 - creating the routing environment for the project by using React Router dependency;
-- giving functionality to the application by allowing the user to add and delete news from favorites page by using useContext(), useReducer();
-- how to make data to persist after refreshing the web browser by using useLocalStorage() hook;
+- giving functionality to the application by allowing the user to add and delete news from favorites page by using useContext(), useReducer(), actions;
+- making data to persist after refreshing the web browser by using useLocalStorage() hook;
 - deploying the project on Netlify by using Node.js, npm and Netlify;
-- learning markdown language and creating a README.md document within informations about the project for the users ;
+- learning markdown language and creating a README.md document.
 
 ### Useful resources 
 
